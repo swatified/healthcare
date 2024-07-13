@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(86,85,151);
+    display: flex;background-color: rgb(86,85,151);
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+    color: #ffff;
+}
+
+.text {
+    font-size: 40px;
+    color: rgb(230,85,88);
+    margin-left: 30px;
+}
+
+.yo {
+    color:#000000;
+}
+h2 {
+    color: rgb(86,85,151);
+    font-size: 35px;
+}
+
+.about {
+    font-size: 43px;
+    text-decoration: underline;
+}
+
+.aa {
+    font-size: 28px;
+    font-style: italic;
+    margin-top: -10px;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 30px;
+    padding: 0;
+}
+
+.navigation{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.me {
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+section#home {
+    background-color: #f9f9f9;
+}
+
+section#services {
+    background-color: #f1f1f1;
+}
+
+section#about {
+    background-color: #EDE4DD;
+    padding-left: 40px;
+    opacity: 0.8;
+}
+
+section#contact {
+    background-color: #f1f1f1;
+}
+
+footer {
+    background-color: rgb(86,85,151);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.imagemain {
+    width: 700px;
+    height: auto;
+
+}
+.image2 {
+    width: 500px;
+    height: auto;
+    margin-right: 120px;
+}
+
+.image3 {
+    width: 700px;
+    height: auto;
+    margin-right: -70px;
+
+}
+
+.services {
+    margin-left: 10vw;
+    margin-top: 40px;
+}
+
+
+.front {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    width: 29%;
+    padding: 15px;
+    font-size: large;
+    background-color: rgb(230,85,88);
+}
+
+form button:hover {
+    background-color:rgb(170, 62, 64);
+    width: 30%;
+    padding: 16px;
+}
+
